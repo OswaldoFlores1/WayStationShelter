@@ -332,6 +332,29 @@ require('../views/header.php');
             <label for="misc_services_change_of_clothes"><input type="checkbox" id="misc_services_change_of_clothes" name="misc_services" value="change_of_clothes" />
                 Getting a change of clothes</label>
         </div>
+        <div>
+            <label for="misc_services_change_of_clothes"><input type="checkbox" id="misc_services_change_of_clothes" name="misc_services" value="change_of_clothes" />
+                Getting a change of clothes</label>
+        </div>
+        <div>
+            <label for="misc_services_laundry"><input type="checkbox" id="misc_services_laundry" name="misc_services" value="laundry" />
+            Doing a load of laundry</label>
+        </div>
+        <div>
+            <label for="misc_services_getting_more_clothes"><input type="checkbox" id="misc_services_getting_more_clothes" name="misc_services" value="getting_more_clothes" />
+                Getting more than just one change of clothes
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_shelter_as_po_box"><input type="checkbox" id="misc_services_shelter_as_po_box" name="misc_services" value="shelter_as_po_box" />
+                Using WayStation as my "home" address and/or phone number
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_id"><input type="checkbox" id="misc_services_id" name="misc_services" value="id" />
+                Getting help with obtaining my birth certificate and/or ID
+            </label>
+        </div>
 
         <p>20. I need this service that wasn't mentioned above</p>
         <label>
