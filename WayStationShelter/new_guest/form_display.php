@@ -316,8 +316,22 @@ require('../views/header.php');
         </label>
 
         <p>19. Of all of the services that WayStation can offer me, I am interested in these (check
-            all that apply</p>
-        <p>Check all that apply.</p>
+            all that apply)</p>
+        <p class="instructions">Check all that apply.</p>
+
+        <!-- *** Not super familiar with HTML and if I'm naming the variables in for=, id=, name=, value= correctly. *** -->
+        <div>
+            <label for="misc_services_food_from_here"><input type="checkbox" id="help_with_food_here" name="misc_services" value="food_from_here" />
+                Getting something to eat and drink now</label>
+        </div>
+        <div>
+            <label for="misc_services_food_togo"><input type="checkbox" id="help_with_food_togo" name="misc_services" value="food_togo" />
+                Taking some food and drink with me</label>
+        </div>
+        <div>
+            <label for="misc_services_change_of_clothes"><input type="checkbox" id="misc_services_change_of_clothes" name="misc_services" value="change_of_clothes" />
+                Getting a change of clothes</label>
+        </div>
 
         <p>20. I need this service that wasn't mentioned above</p>
         <label>
