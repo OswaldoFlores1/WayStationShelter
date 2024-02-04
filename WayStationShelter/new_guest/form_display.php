@@ -355,6 +355,52 @@ require('../views/header.php');
                 Getting help with obtaining my birth certificate and/or ID
             </label>
         </div>
+        <div>
+            <label for="misc_services_food_stamps"><input type="checkbox" id="misc_services_food_stamps" name="misc_services" value="food_stamps" />
+                Getting signed up for food stamps
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_phone"><input type="checkbox" id="misc_services_phone" name="misc_services" value="phone"/>
+                Getting a free phone
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_housing_options"><input type="checkbox" id="misc_services_housing_options" name="misc_services" value="housing_options" />
+                Learning about housing options
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_safe_sleep"><input type="checkbox" id="misc_services_safe_sleep" name="misc_services" value="safe_sleep" />
+                Finding someplace safe to sleep even tonight
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_shower"><input type="checkbox" id="misc_services_shower" name="misc_services" value="shower" />
+                Finding a place to take a shower
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_attorney"><input type="checkbox" id="misc_services_attorney" name="misc_services" value="attorney" />
+                Meeting with an attorney who can help me to settle my debts, get a divorce or separation from an abusive spouse, help me get my kids back, help me resolve some other legal problem.
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_locker"><input type="checkbox" id="misc_services_locker" name="misc_services" value="locker" />
+                Putting my things in a locker so I can get some things done without carrying all my stuff.
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_mental_health"><input type="checkbox" id="misc_services_mental_health" name="misc_services" value="mental_health"/>
+                Mental health counseling, treatment or medication management.
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_physical_health"><input type="checkbox" id="misc_services_physical_health" name="misc_services" value="physical_health" />
+                Help with a physical health problem
+            </label>
+        </div>
+
 
         <p>20. I need this service that wasn't mentioned above</p>
         <label>
