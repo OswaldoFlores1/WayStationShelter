@@ -400,6 +400,36 @@ require('../views/header.php');
                 Help with a physical health problem
             </label>
         </div>
+        <div>
+            <label for="misc_services_daycare"><input type="checkbox" id="misc_services_daycare" name="misc_services" value="daycare" />
+                Getting my kids daycare so I can work
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_child_resources"><input type="checkbox" id="misc_services_child_resources" name="misc_services" value="child_resources" />
+                Resources for my children
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_evicted"><input type="checkbox" id="misc_services_evicted" name="misc_services" value="evicted" />
+                Help to prevent me from getting evicted
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_utilities"><input type="checkbox" id="misc_services_utilities" name="misc_services" value="utilities" />
+                Help getting my power/gas/water turned back on
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_find_job"><input type="checkbox" id="misc_services_find_job" name="misc_services" value="find_job" />
+                Help finding a job
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_resume"><input type="checkbox" id="misc_services_resume" name="misc_services" value="resume"/>
+                Help making a resume and signing up for online job search
+            </label>
+        </div>
 
 
         <p>20. I need this service that wasn't mentioned above</p>
