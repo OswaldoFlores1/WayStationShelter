@@ -501,7 +501,7 @@ require('../views/header.php');
         </label>
         <br>
         <br>
-        <input type="submit" id="submit">
+        <input type="submit" id="submit" class="button">
 
     </form>
 </main>

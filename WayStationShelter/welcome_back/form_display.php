@@ -287,7 +287,7 @@ require('../views/header.php');
 
         <br>
         <br>
-        <input type="submit" id="submit">
+        <input type="submit" id="submit" class="button">
 
     </form>
 </main>
