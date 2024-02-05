@@ -8,4 +8,4 @@ $directories = explode('/', $url);
 
 $appPath = '/'.$directories[1].'/';
 
-$cssPath = "{$appPath}css/main.css";
+$cssPath = "{$appPath}/WayStationShelter/css/main.css";
