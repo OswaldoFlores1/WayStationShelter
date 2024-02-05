@@ -430,6 +430,69 @@ require('../views/header.php');
                 Help making a resume and signing up for online job search
             </label>
         </div>
+        <div>
+            <label for="misc_services_smoking"><input type="checkbox" id="misc_services_smoking" name="misc_services" value="smoking" />
+                Help quitting smoking
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_addiction"><input type="checkbox" id="misc_services_addiction" name="misc_services" value="addiction" />
+                Help breaking out of an addiction
+            </label>
+        </div>
+        <div>
+            <!-- This is just a repeat of misc_services_mental_health ?? -->
+            <label for="misc_services_thoughts"><input type="checkbox" id="misc_services_thoughts" name="misc_services" value="thoughts" />
+                Someone to talk with to help me sort out my thoughts
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_life_skills"><input type="checkbox" id="misc_services_life_skills" name="misc_services" value="life_skills"/>
+                Learning life skills (for example: cook/eat more healthy, lose weight, how to manage money, file taxes,
+                get a bank account, get a driver's license, make a will, car maintenance, and more)
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_parenting_help"><input type="checkbox" id="misc_services_parenting_help" name="misc_services" value="parenting_help" />
+                Parenting help
+            </label>
+        </div>
+        <div>
+            <!-- another mental health repeat? -->
+            <label for="misc_services_counseling"><input type="checkbox" id="misc_services_counseling" name="misc_services" value="counseling" />
+                Counseling
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_bus_ticket"><input type="checkbox" id="misc_services_bus_ticket" name="misc_services" value="bus_ticket" />
+                Getting a bus ticket to go to a friend/family member who has agreed to take me in
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_transportation"><input type="checkbox" id="misc_services_transportation" name="misc_services" value="transportation" />
+                Transportation to get to work or appointments
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_disability"><input type="checkbox" id="misc_services_disability" name="misc_services" value="disability"/>
+                Help getting on disability
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_insurance"><input type="checkbox" id="misc_services_insurance" name="misc_services" value="insurance" />
+                Help getting on Medicaid or some other insurance
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_prescription"><input type="checkbox" id="misc_services_prescription" name="misc_services" value="prescription" />
+                Getting my meds (I have a prescription but need help getting them)
+            </label>
+        </div>
+        <div>
+            <label for="misc_services_something_else"><input type="checkbox" id="misc_services_something_else" name="misc_services" value="something_else" />
+                Something else (please specify below)
+            </label>
+        </div>
 
 
         <p>20. I need this service that wasn't mentioned above</p>
