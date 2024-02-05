@@ -26,6 +26,7 @@ require('../views/header.php');
 
         <p>4. How many other family members came with you today? (Spouse, children, etc.)</p>
         <p class="instructions">Mark only one.</p>
+<!--        TODO: change this to dropdown menu... -->
         <div id="family_amount">
             <label class="radio"><input type="radio" name="amount_family" id="one_family">
                 1</label>
@@ -282,7 +283,7 @@ require('../views/header.php');
 
         <p>9. I need this service that wasn't mentioned above</p>
         <label>
-            <input type="text" name="<?php echo BACK_NEED_SERVICE ?>">
+            <input type="text" class="largeTextBox" name="<?php echo BACK_NEED_SERVICE ?>">
         </label>
 
         <br>

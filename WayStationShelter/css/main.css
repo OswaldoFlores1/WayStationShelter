@@ -24,6 +24,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
+    border-radius: 7px;
 }
 
 .instructions {
@@ -62,5 +63,9 @@ form {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.largeTextBox {
+    width: 100%;
+    padding-bottom: 40px;
+}
 
 

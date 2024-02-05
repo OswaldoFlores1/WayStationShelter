@@ -91,6 +91,7 @@ require('../views/header.php');
         </label>
 
         <p>8. Are you a veteran?</p>
+<!--        TODO: remove all "mark only one" instructions for the questions with radio buttons... -->
         <p class="instructions">Mark only one.</p>
         <div id="veteran">
             <label class="radio"><input type="radio" name="yes_no_veteran" id="yes_veteran">
@@ -312,7 +313,7 @@ require('../views/header.php');
 
         <p>18. I consider myself homeless because...</p>
         <label>
-            <input type="text" name="<?php echo CONSIDER_HOMELESS ?>">
+            <input type="text" class="largeTextBox" name="<?php echo CONSIDER_HOMELESS ?>">
         </label>
 
         <p>19. Of all of the services that WayStation can offer me, I am interested in these (check
@@ -497,7 +498,7 @@ require('../views/header.php');
 
         <p>20. I need this service that wasn't mentioned above</p>
         <label>
-            <input type="text" name="<?php echo NEED_SERVICE ?>">
+            <input type="text" class="largeTextBox" name="<?php echo NEED_SERVICE ?>">
         </label>
         <br>
         <br>
