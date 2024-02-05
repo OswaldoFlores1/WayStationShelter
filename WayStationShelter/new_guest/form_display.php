@@ -51,7 +51,7 @@ require('../views/header.php');
             Initiative and are not entitled to me. I understand and acknowledge that I am not
             entitled to any compensation or royalties with respect to the use of the photo or
             video.</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="photo">
             <label class="radio"><input type="radio" name="yes_no_photo" id="yes_photo">
                 I agree to this photo release</label>
@@ -91,7 +91,7 @@ require('../views/header.php');
         </label>
 
         <p>8. Are you a veteran?</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="veteran">
             <label class="radio"><input type="radio" name="yes_no_veteran" id="yes_veteran">
                 Yes</label>
@@ -101,7 +101,7 @@ require('../views/header.php');
         </div>
 
         <p>9. What is your race?</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="race">
             <label class="radio"><input type="radio" name="race_option" id="asian">
                 Asian</label>
@@ -129,7 +129,7 @@ require('../views/header.php');
         </div>
 
         <p>10. How many other family members came with you today? (Spouse, children, etc.)</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="family_amount">
             <label class="radio"><input type="radio" name="amount_family" id="one_family">
                 1</label>
@@ -178,7 +178,7 @@ require('../views/header.php');
         </div>
 
         <p>11. Will you be eating breakfast at WayStation today?</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="breakfast">
             <label class="radio"><input type="radio" name="yes_no_breakfast" id="yes_breakfast">
                 Yes</label>
@@ -188,7 +188,7 @@ require('../views/header.php');
         </div>
 
         <p>12. Will you be eating lunch at WayStation today?</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="lunch">
             <label class="radio"><input type="radio" name="yes_no_lunch" id="yes_lunch">
                 Yes</label>
@@ -198,7 +198,7 @@ require('../views/header.php');
         </div>
 
         <p>13. Will you be doing laundry today?</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="laundry">
             <label class="radio"><input type="radio" name="yes_no_laundry" id="yes_laundry">
                 Yes</label>
@@ -208,7 +208,7 @@ require('../views/header.php');
         </div>
 
         <p>14. Do you need a bicycle?</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="bicycle">
             <label class="radio"><input type="radio" name="yes_no_bicycle" id="yes_bicycle">
                 Yes</label>
@@ -218,7 +218,7 @@ require('../views/header.php');
         </div>
 
         <p>15. I found out about WayStation...</p>
-        <p>Check all that apply.</p>
+        <p class="instructions">Check all that apply.</p>
         <div>
             <label for="from_flyer"><input type="checkbox" id="from_flyer" name="found_out" value="from_flyer" />
                 From a flyer someone gave me</label>
@@ -254,7 +254,7 @@ require('../views/header.php');
         </div>
 
         <p>16. Over the last few nights, I have been...</p>
-        <p>Mark only one.</p>
+        <p class="instructions">Mark only one.</p>
         <div id="sleep">
             <label class="radio"><input type="radio" name="sleep_location" id="sleep_shelter">
                 Staying at homeless shelter</label>
@@ -288,7 +288,7 @@ require('../views/header.php');
         </div>
 
         <p>17. If you answered the above "Sleeping in my home," check any that apply</p>
-        <p>Check all that apply.</p>
+        <p class="instructions">Check all that apply.</p>
         <div>
             <label for="eviction_notice">
                 <input type="checkbox" id="eviction_notice" name="sleep_my_home" value="eviction_notice" />
