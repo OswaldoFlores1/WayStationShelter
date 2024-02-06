@@ -101,6 +101,7 @@ require('../views/header.php');
                 No</label>
         </div>
 
+<!--        This could probably be a dropdown -->
         <p>9. What is your race?</p>
         <p class="instructions">Mark only one.</p>
         <div id="race">
@@ -129,6 +130,7 @@ require('../views/header.php');
                 Other</label>
         </div>
 
+<!--        TODO: make this a dropdown -->
         <p>10. How many other family members came with you today? (Spouse, children, etc.)</p>
         <p class="instructions">Mark only one.</p>
         <div id="family_amount">

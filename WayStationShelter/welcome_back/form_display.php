@@ -103,7 +103,8 @@ require('../views/header.php');
             <label class="radio"><input type="radio" name="yes_no_laundry" id="no_laundry">
                 No</label>
         </div>
-<!--    *** Note: Some of these are different, will need to change them later.     -->
+
+<!--    TODO: Note: Some of these are different, will need to change them later.     -->
         <p>8. Today I would like some assistance with these things only (check what you would
             like to prioritize for today)</p>
         <p class="instructions">Check all that apply.</p>
