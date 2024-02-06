@@ -4,7 +4,7 @@
 require('../views/header.php');
 ?>
 <main>
-    <form action="index.php" method="get">
+    <form action="index.php" method="get">  <!-- TODO: change to post? will have last 4 of social in the url/browser history if not... -->
         <h2>First Time Guests</h2>
         <p>We want every guest to have a positive experience at WayStation which is why we need your
             agreement on the following guidelines in order to provide an orderly, productive, and positive
